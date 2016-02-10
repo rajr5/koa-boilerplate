@@ -1,0 +1,14 @@
+# Configuration defaults
+app:
+    port: 8081
+    url: "localhost"
+
+db:
+    database: "test"
+    username: "root"
+    password: ""
+    dialect: "mysql"
+    host: "localhost"
+    port: "32771"       # 3306 on OSX
+    logging: false
+    sync: true          # this will destroy and recreate the database

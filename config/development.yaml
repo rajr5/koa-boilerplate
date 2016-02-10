@@ -1,0 +1,15 @@
+app:
+    port: 8081
+    url: "localhost"
+
+db:
+    database: "mydb"
+    username: "root"
+    password: ""
+    dialect: "mysql"
+    host: "127.0.0.1"
+    port: "3306"
+    logging: false
+    sync: false         # this will destroy and recreate the database
+
+# other services
